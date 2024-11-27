@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(146, 228, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font: 1em sans-serif;
+}
+#from-container{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+h2{
+   margin: 0px 0px 10px 0px; 
+}
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 200px;
+    background-color: rgb(104, 93, 199);
+    border-radius: 10px;
+    font: 1em sans-serif;
+    color: white;
+    border: 0px;
+}
+.error{
+    color: red;
+    margin: 0px;
+    text-align: left;
+}
